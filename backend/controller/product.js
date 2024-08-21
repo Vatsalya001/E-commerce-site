@@ -8,8 +8,8 @@ const Shop = require("../model/shop");
 const cloudinary = require("cloudinary");
 const ErrorHandler = require("../utils/ErrorHandler");
 const { upload } = require("../multer");
-const multer = require("multer");
-const upload = multer();
+//const multer = require("multer");
+//const upload = multer();
 
 // create product
 router.post(
